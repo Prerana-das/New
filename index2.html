@@ -1,0 +1,656 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Real Estate | Rentify</title>
+
+		<!-- Fontawesome css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+		
+		<!-- BOOTSTRAP GRID CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- owl carousel css -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- COMMON CSS -->
+		<link rel="stylesheet" href="assets/css/common.css" />
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- RESPONSIVE CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+	</head>
+	<body>
+		<!-- HEADER START -->
+		<header class="header-area home" id="mainNav">
+			<div class="container">
+				<div class="main-nav">
+					<!-- LOGO -->
+					<div class="main-logo">
+						<a href="index.html" class="home_logo">
+							<span class="logo_name">Rentify</span>
+							<span class="logo_cate">Real Estate</span>
+						</a>
+					</div>
+					<!-- MAIN MENU -->
+					<div class="main-menu home2">
+						<a href="#" class="toggle-menu">&#9776;</a>
+						<ul class="main-menu-list" >
+							<li class="active"><a href="#">Home</a>
+								<ul class="main-dropdown">
+									<li><a href="index.html">Home 1</a></li>
+									<li class="active"><a href="index2.html">Home 2</a></li>
+								</ul>
+							</li>
+							<li><a href="search.html">Property</a></li>
+							<li><a href="dashboard.html">Dashboard</a></li>
+							<li><a href="#">Blog</a>
+								<ul class="main-dropdown">
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="blog_details.html">Single Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<!-- Mobile Menu -->
+						<ul class="main-menu-list-mobile" id="nav">
+							<li><a href="#" class="active">Home<i class="fas fa-caret-down"></i></a>
+								<ul class="main-dropdown">
+									<li><a href="index.html">Home 1</a></li>
+									<li class="active"><a href="index2.html">Home 2</a></li>
+								</ul>
+							</li>
+							<li><a href="search.html">Property</a></li>
+							<li><a href="dashboard.html">Dashboard</a></li>
+							<li><a href="#">Blog<i class="fas fa-caret-down"></i></a>
+								<ul class="main-dropdown">
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="blog_details.html">Single Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- LOGIN -->
+					<div class="login-reg home2">
+						<ul class="login-reg-list">
+							<li class="profile-menu">
+								<div class="profile-nav">
+									<a href="#" class="navi-list"><i class="fas fa-bell"></i><small>3</small></a>
+								</div>
+								<div class="profile-nav-drop">
+									<div class="auth-dropdown auth-active-dropdown drp1">
+										<div class="auth-title">
+											<h3>Notification</h3>
+											<p>Clear</p>
+										</div>
+										<ul class="auth-dropdown-list Notification_list">
+											<li>
+												<img src="assets/img/user1.png" alt="">
+												<div class="auth-cap"><p><a href="spa-details.html">Larry Lopez</a></p>
+												</div>
+											</li>
+											<li>
+												<img src="assets/img/member-one.jpg" alt="">
+												<div class="auth-cap"><p><a href="spa-details.html">Robert Brown</a></p>
+												</div>
+											</li>
+											<li>
+												<img src="assets/img/member-two.jpg" alt="">
+												<div class="auth-cap"><p><a href="spa-details.html">Jacklyn Jack</a></p>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="profile-nav">
+									<a href="#" class="navi-list"><i class="fas fa-envelope"></i><small>3</small></a>
+								</div>
+								<div class="profile-nav-drop">
+								 	<div class="auth-dropdown auth-active-dropdown drp2">
+	                                    <div class="auth-title">
+	                                        <h3>Message</h3>
+	                                        <p>Clear</p>
+	                                    </div>
+	                                    <ul class="auth-dropdown-list message_list">
+	                                        <li>
+	                                        	<img src="assets/img/user1.png" alt="">
+	                                        	<div class="auth-mes"><h4>Jacklyn Jack</h4><p>I want to rent a 3 bed room.Can you suggest some areas?</p><span>2 mins ago</span>
+	                                        	</div>
+	                                        </li>
+	                                        <li>
+	                                        	<img src="assets/img/member-one.jpg" alt="">
+	                                        	<div class="auth-mes"><h4>Robert Brown</h4><p>Want to sell my property.It is very urgent.</p><span>4 mins ago</span>
+	                                        	</div>
+	                                        </li>
+	                                        <li>
+	                                        	<img src="assets/img/member-two.jpg" alt="">
+	                                        	<div class="auth-mes"><h4>Larry Lopez</h4><p>Is there 4 bedroom house available in sylhet?</p><span>10 mins ago</span>
+	                                        	</div>
+	                                        </li>
+	                                    </ul>
+	                                </div>
+	                             </div>
+							</li>
+							<li class="profile-menu">
+								<div class="profile-nav">
+									<img src="assets/img/user1.png" alt="">
+									<span>Rihana</span>
+								</div>
+								<div class="profile-nav-drop">
+									<ul class="profile-nav-list">
+										<li><a href="dashboard.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+										<li><a href="dashboard.html"><i class="fas fa-tachometer-alt"></i>Log Out</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER END -->
+
+		<!-- SLIDER START -->
+		<div class="slider-area">
+			<div class="blog_post_slider owl-carousel">
+				<div class="blog_slider_item home_slide_1">
+				</div>
+				<div class="blog_slider_item home_slide_2">
+				</div>
+				<div class="blog_slider_item home_slide_3">
+				</div>
+			</div>
+ 			<div class="container">
+ 				<div class="row">
+ 					<div class="col-md-12">
+						<div class="slider_c">
+							<div class="slider-content">
+								<h1 class="main-title _mar_b25">Find Your Dream Places</h1>
+								<p class="main-sub _mar_b30">Find a house and land package to suit your budget and lifestyle.</p>
+								<ul class="search_list">
+									<li class="nav-item"><input class="location_input" type="text" placeholder="Location"></li>
+									<li class="nav-item">
+										<select name="type" class="select-item">
+											<option value="type">All Location</option> 
+											<option value="type">Uposhohor</option> 
+											<option value="type">Kajitula</option>
+											<option value="type">Tb Gate</option> 
+											<option value="type">Ambarkhana</option>
+										</select>
+										<span class="loc-arrow"><i class="fas fa-caret-down"></i></span>
+									</li>
+									<li class="nav-item">
+										<select name="type" class="select-item">
+											<option value="type">Budget</option> 
+											<option value="type">10000</option> 
+											<option value="type">15000</option>
+											<option value="type">20000</option> 
+											<option value="type">25000</option>
+										</select>
+										<span class="loc-arrow"><i class="fas fa-caret-down"></i></span>
+									</li>
+									<li class="nav-item"><a href="search.html" class="search">Search</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+ 				</div>		
+			</div>
+		</div>
+		<!-- SLIDER END -->
+
+		<!-- ABOUT START -->
+		<div class="about-area _padd_tb90">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-11 ">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="about-left">
+									<div class="about-img-item">
+										<img src="assets/img/4.jpg" alt="">
+									</div>
+									<div class="about-img-item  about-img-item2">
+										<img src="assets/img/5.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="about-right">
+									<h2 class="section-title _mar_b10"><span class="about_large">Sell Your</span>   BEST HOUSE</h2>
+									<p class="_padd_b15">Skip the hassle and sell your home directly to Rentify. No prep work or showings required. Available in select areas with more coming soon.</p>
+									<p class="_padd_b15">Skip the home prep,don’t bother cleaning, because you won’t have to show your home.Save time,no need to get your home market-ready. We’ll take care of repairs.Move when you choose,pick a closing date that works with your plans.Get support,Lean on your dedicated Rentify Advisor Team. They’ll be with you every step of the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ABOUT END -->
+
+		<!-- FEATURE START -->
+		<div class="features-area _padd_b60">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-11">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title-area _padd_b15">
+									<h2 class="section-title ">Property</h2>
+									<p class="_padd_b15 section-sub-title">Residential Apartment</p>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<div class="col-md-6 col-sm-6">
+								<div class="single-features ">
+									<div class="feature-img">
+										<img src="assets/img/6.jpg" alt="">
+									</div>
+									<div class="feature-content">
+										<h3 class="feature-title _padd_b5">Relaxed and smiled confidently</h3>
+										<p class="feature-sub _padd_b5">St,California, United States</p>
+										<span class="price _padd_b5">$3,500</span>
+										<ul class="feature-list _padd_b5">
+											<li>9 room</li>
+											<li>7 Beds</li>
+											<li>1300 sqft</li>
+											<li>1 Garages</li>
+										</ul>
+										<ul class="feature-view">
+											
+											<li><a href="property_details.html">View Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="col-md-6 col-sm-6">
+								<div class="single-features ">
+									<div class="feature-img">
+										<img src="assets/img/7.jpg" alt="">
+									</div>
+									<div class="feature-content">
+										<h3 class="feature-title _padd_b5">Elegantly cottage</h3>
+										<p class="feature-sub _padd_b5">USA, Los Angeles, 10777 Santa Monica Boulevard.</p>
+										<span class="price _padd_b5">$5,500</span>
+										<ul class="feature-list _padd_b5">
+											<li>11 room</li>
+											<li>9 Beds</li>
+											<li>1200 sqft</li>
+											<li>2 Garages</li>
+										</ul>
+										<ul class="feature-view">
+											
+											<li><a href="property_details.html">View Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="col-md-6 col-sm-6">
+								<div class="single-features ">
+									<div class="feature-img">
+										<img src="assets/img/feature2.jpg" alt="">
+									</div>
+									<div class="feature-content">
+										<h3 class="feature-title _padd_b5">Apartments at City</h3>
+										<p class="feature-sub _padd_b5"> Austria, Vienna, Fleischmarkt 20.</p>
+										<span class="price _padd_b5">$4,500</span>
+										<ul class="feature-list _padd_b5">
+											<li>6 room</li>
+											<li>4 Beds</li>
+											<li>1200 sqft</li>
+											<li>1 Garages</li>
+										</ul>
+										<ul class="feature-view">
+											<li><a href="property_details.html">View Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- ITEM -->
+								<!-- ITEM -->
+							<div class="col-md-6 col-sm-6">
+								<div class="single-features ">
+									<div class="feature-img">
+										<img src="assets/img/8.jpg" alt="">
+									</div>
+									<div class="feature-content">
+										<h3 class="feature-title _padd_b5">Relaxed and smiled confidently</h3>
+										<p class="feature-sub _padd_b5">St,California, United States</p>
+										<span class="price _padd_b5">$3,500</span>
+										<ul class="feature-list _padd_b5">
+											<li>9 room</li>
+											<li>7 Beds</li>
+											<li>1300 sqft</li>
+											<li>1 Garages</li>
+										</ul>
+										<ul class="feature-view">
+											
+											<li><a href="property_details.html">View Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- ITEM -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FEATURE END -->
+
+		<!-- TESTIMONIAL START -->
+		<div class="testimonial-area _padd_b60">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title-area _padd_b15">
+							<h2 class="section-title">Our Testimonial</h2>
+							<p class="_padd_b15 section-sub-title">Our visitors thought</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="testimonials owl-carousel">
+							<!-- ITEM -->
+							<div class="single-testimonial ">
+								<div class="testimonial-info">
+									<img src="assets/img/testi2.jpg" alt="">
+									<span class="testi_quote">
+										<i class="fas fa-quote-left"></i>
+									</span>
+									<p class="testi_cont">Thank you for your full support from team at Rentify.com . We have got good response . Our Conversion rate is also good . Please keep it up in our service .</p>
+									<h2 class="testi-title">Rihana</h2>
+									<h4 class="testi-sub">CEO</h4>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="single-testimonial ">
+								<div class="testimonial-info">
+									<img src="assets/img/member-one.jpg" alt="">
+									<span class="testi_quote">
+										<i class="fas fa-quote-left"></i>
+									</span>
+									<p class="testi_cont">I do acknowledge that the novel concept, dedication and hardwork of the rentify.com team is beginning to bear fruit. In fact other leading property advertising websites are beginning to incorporate the free property photo/video concept of housing which again gives proof of its success.</p>
+									<h2 class="testi-title">Robert Brown</h2>
+									<h4 class="testi-sub">Assistant Director</h4>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="single-testimonial ">
+								<div class="testimonial-info">
+									<img src="assets/img/member-three.jpg" alt="">
+									<span class="testi_quote">
+										<i class="fas fa-quote-left"></i>
+									</span>
+									<p class="testi_cont">I feel that this is a best Google map based real estate portal in the world. the people can know Real about there properties which they are going to search for rent or Buy. The response is good.</p>
+									<h2 class="testi-title">Sajid Umar</h2>
+									<h4 class="testi-sub">Better Deal Properties</h4>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="single-testimonial ">
+								<div class="testimonial-info">
+									<img src="assets/img/member-two.jpg" alt="">
+									<span class="testi_quote">
+										<i class="fas fa-quote-left"></i>
+									</span>
+									<p class="testi_cont">Your rentify.com is very impressive site to search the houses . I have got good response from your site. And I am sure you will keep up this good work in future also. </p>
+									<h2 class="testi-title">Jayanti Sharma</h2>
+									<h4 class="testi-sub">Property Experts</h4>
+								</div>
+							</div>
+							<!-- ITEM -->
+							<!-- ITEM -->
+							<div class="single-testimonial ">
+								<div class="testimonial-info">
+									<img src="assets/img/memmbar.jpg" alt="">
+									<span class="testi_quote">
+										<i class="fas fa-quote-left"></i>
+									</span>
+									<p class="testi_cont">By changing the fundamental process of home search through a location based platforms that scouts accomodation has taken the innovative lead of bringing houses to users instead.</p>
+									<h2 class="testi-title">Sarjit singh baghel</h2>
+									<h4 class="testi-sub">Property Consultant</h4>
+								</div>
+							</div>
+							<!-- ITEM -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- TESTIMONIALL END-->
+
+		<!-- BLOG START -->
+		<div class="blog-area _padd_tb90">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title-area _padd_b15">
+							<h2 class="section-title ">Our Blog</h2>
+							<p class="_padd_b15 section-sub-title">The future in property management is here</p>
+						</div>
+					</div>
+					<!-- ITEM -->
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog ">
+							<div class="blog-img">
+								<img src="assets/img/bedroom_relaxed_purple.jpg" alt="">
+								<span class="blog-date">21st June</span>
+							</div>
+							<div class="feature-content _padd15">
+								<h3 class="feature-title _padd_b5">Should you opt for a rental home with lots of amenities or less amenities?</h3>
+								<p class="blog-sub">The amenities that prospective tenants should look for in an apartment, will depend on their budget, lifestyle and the family members who will reside in the house. We explain
+									When searching for a home on rent, a common dilemma faced by prospective tenants, is to evaluate which amenities are necessary and accordingly, what the rental value of the home should be.</p>
+								<button class="border-btn" onclick="window.location.href='blog_details.html'">Read More</button>
+							</div>
+						</div>
+					</div>
+					<!-- ITEM -->
+					<!-- ITEM -->
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog ">
+							<div class="blog-img">
+								<img src="assets/img/blog1.jpg" alt="">
+								<span class="blog-date">15th July</span>
+							</div>
+							<div class="feature-content _padd15">
+								<h3 class="feature-title _padd_b5">Small is big, as micro homes gain traction in metro cities</h3>
+								<p class="blog-sub">With the geographical boundaries of cities expanding and their population growing, small-sized homes are once again in demand. We look at the advantages of such ‘micro homes’ and who should invest in these
+									‘Micro homes’ are gaining popularity owing to the rapid rise of population and space crunch in urban India.</p>
+								<button class="border-btn" onclick="window.location.href='blog_details.html'">Read More</button>
+							</div>
+						</div>
+					</div>
+					<!-- ITEM -->
+					<!-- ITEM -->
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog ">
+							<div class="blog-img">
+								<img src="assets/img/property4.jpg" alt="">
+								<span class="blog-date">5th May</span>
+							</div>
+							<div class="feature-content _padd15">
+								<h3 class="feature-title _padd_b5">How to know what is the correct rent, for your property</h3>
+								<p class="blog-sub">If you have invested in a property, with the aim of earning rental income from it, how do you decide how much rent to charge for the property? We offer some general guidelines
+									Home owners often find it difficult, to figure out the right balance between their property’s price and its rental potential. “People often invest in properties, for the regular rental income that they can derive out of it.</p>
+								<button class="border-btn" onclick="window.location.href='blog_details.html'">Read More</button>
+							</div>
+						</div>
+					</div>
+					<!-- ITEM -->
+				</div>
+			</div>
+		</div>
+		<!-- BLOG END -->
+ 
+		<!-- CTA START -->
+		<div class="cta-area bg-layer _padd_tb90">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="cta-cont">
+							<h1 class="cta-title _mar_b10">Do you want to Rent your House</h1>
+							<p class="cta_sub _mar_b20">Post your property in minutes and reach millions of renters</p>
+							<button class="block-btn join_us_btn">Join with us</button>
+
+
+							<!-- subscription Modal Start  -->
+							<div class="subscription_area_overlay">
+								<div class="subscription_area">
+									<span class="subscription_toggle">
+										<i class="fas fa-times"></i>
+									</span>
+									<h3 class="subscription_title">Subscription</h3>
+									<form action="#">
+										<div class="form-box required">
+											<input type="email" placeholder="Enter Your Email">
+										</div>
+										<div class="form-box">
+											<button class="block-btn">Subscribe</button>
+										</div>
+									</form>	
+								</div>
+							</div>
+							<!-- subscription Modal End  -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CTA END -->
+
+		<!-- CONTACT START -->
+		<div class="contact-area _padd_tb90">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title-area _padd_b15">
+							<h2 class="section-title ">Contact us </h2>
+							<p class="_padd_b15 section-sub-title">Opportunity awaits you and so do millions of renters searching online for apartments.</p>
+						</div>
+					</div>
+					<div class="col-md-5  col-xs-12">
+						<div class="contact-form">
+							<form action="#">
+								<input type="text"  placeholder="Name"/>
+								<input type="email"  placeholder="Email"/>
+								<textarea   rows="4" placeholder="Message"></textarea>
+								<input type="submit" class="border-btn"  value="send message"/>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="google-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48689.71627092723!2d91.82241627996686!3d24.901910364093897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e1!4m0!4m0!5e0!3m2!1sen!2sbd!4v1561878750328!5m2!1sen!2sbd" height="300" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CONTACT END -->
+
+		<!-- FOOTER START -->
+		<div class="footer-area">
+			<div class="footer-top _padd_tb20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">ABOUT US</h3>
+								<p class="footer_cont">Rentify is the leading real estate and rental marketplace dedicated to empowering consumers with data, inspiration and knowledge around the place they call home, and connecting them with the best local professionals who can help.</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Short Link</h3>
+								<ul class="footer-menu-list">
+									<li><a href="search.html">Property</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Recent Post</h3>
+								<div class="single-recent-post">
+									<div class="row">
+										<div class="col-lg-3 col-md-4">
+											<div class="recent-post-left">
+												<a href="property_details.html">
+													<img src="assets/img/12.jpg" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-lg-9 col-md-8">
+											<div class="recent-post-right">
+												<h4>The Edison at Union Market</h4>
+												<p>July 13</p>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="single-recent-post">
+									<div class="row">
+										<div class="col-lg-3 col-md-4">
+											<div class="recent-post-left">
+												<a href="property_details.html">
+													<img src="assets/img/17.jpg" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-lg-9 col-md-8">
+											<div class="recent-post-right">
+												<h4>The Verandas at Timberglen</h4>
+												<p>August 25</p>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Contact</h3>
+								<ul class="footer-contact">
+									<li><span><i class="fas fa-location-arrow"></i></span>St,California, United States</li>
+									<li><span><i class="fas fa-phone"></i></span>+88 0173-919 0430</li>
+									<li><span><i class="far fa-envelope"></i></span>rentify@gmail.com</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom _padd_tb20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="footer-bottom-cont">
+								<p>copyright &copy; 2019 Design by appifylab</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER END -->
+		<script src="assets/js/jquery-1.12.4.min.js" ></script>
+        <script src="assets/js/bootstrap.min.js" ></script>
+        <script src="assets/js/owl.carousel.min.js" ></script>
+        <script src="assets/js/script.js" ></script>
+	</body>
+</html>

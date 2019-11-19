@@ -1,0 +1,523 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Real Estate | Rentify</title>
+
+		<!-- Fontawesome css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+		
+		<!-- BOOTSTRAP GRID CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- owl carousel css -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- COMMON CSS -->
+		<link rel="stylesheet" href="assets/css/common.css" />
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- RESPONSIVE CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+	</head>
+	<body>
+		<!-- HEADER START -->
+		<header class="header-area" id="mainNav">
+			<div class="container">
+				<div class="main-nav">
+					<!-- LOGO -->
+					<div class="main-logo">
+						<a href="index.html" class="home_logo">
+							<span class="logo_name">Rentify</span>
+							<span class="logo_cate">Real Estate</span>
+						</a>
+					</div>
+					<!-- MAIN MENU -->
+					<div class="main-menu">
+						<a href="#" class="toggle-menu">&#9776;</a>
+						<ul class="main-menu-list" >
+							<li><a href="#">Home</a>
+								<ul class="main-dropdown">
+									<li><a href="index.html">Home 1</a></li>
+									<li><a href="index2.html">Home 2</a></li>
+								</ul>
+							</li>
+							<li><a href="search.html">Property</a></li>
+							<li><a href="dashboard.html" class="active">Dashboard</a></li>
+							<li><a href="#">Blog</a>
+								<ul class="main-dropdown">
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="blog_details.html">Single Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<!-- Mobile Menu -->
+						<ul class="main-menu-list-mobile" id="nav">
+							<li><a href="#">Home<i class="fas fa-caret-down"></i></a>
+								<ul class="main-dropdown">
+									<li><a href="index.html">Home 1</a></li>
+									<li><a href="index2.html">Home 2</a></li>
+								</ul>
+							</li>
+							<li><a href="search.html">Property</a></li>
+							<li><a href="dashboard.html" class="active">Dashboard</a></li>
+							<li><a href="#">Blog<i class="fas fa-caret-down"></i></a>
+								<ul class="main-dropdown">
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="blog_details.html">Single Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- LOGIN -->
+					<div class="login-reg">
+						<ul class="login-reg-list">
+							<li><a href="login.html" class="login">
+								 <span class="user_icon">
+								 	<i class="fas fa-user-circle"></i>
+								 </span>
+								 Log In
+								</a>
+							</li>
+							<li><a href="register.html" class="register">Register</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER END -->
+
+		<!-- SLIDER START -->
+		<div class="blog-slide-area bg-layer _padd_tb20 _mar_b50">
+			<div class="container">
+				<div class="blog-slider-content">
+					<div class="blog-page-title _padd_tb30">
+						<h2 class="page-title">Dashboard</h2>
+					</div>				
+					<ul class="page-link-loc">
+						<li><a href="index.html">Home</a></li>
+						<li class="active">Dashboard</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- SLIDER END -->
+
+		<!-- DESHBOARD START -->
+		<div class="dashboard-area _padd_tb90">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="dashboard-section-title _mar_b30">
+							<h2 class="desh-main-title">My Dashboard</h2>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="dashboard-left">
+							<ul class="dashboard-list">
+								<li class="acc acc-dash dash-active" data-tabs="1"><i class="fas fa-tachometer-alt"></i> Account Dashboard</li>
+								<li class="acc acc-user" data-tabs="2"><i class="fas fa-user"></i> User Profile</li>
+								<li class="acc acc-booking" data-tabs="3"><i class="fab fa-dashcube"></i> Booked List</li>
+								<li class="acc acc-wish" data-tabs="4"><i class="fab fa-staylinked"></i> Wish List</li>
+								<li class="acc acc-review" data-tabs="5"><i class="fab fa-rev"></i> Review List</li>
+								<li class="acc acc-subscription" data-tabs="6"><i class="fab fa-bandcamp"></i> Subscription</li>
+								<li class="acc acc-contact" data-tabs="7"><i class="far fa-address-card"></i> Contact Info</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="dashboard-right">
+							<!-- DESHBOARD DEFAULT START  -->
+							<div class="dashboard-default tabs-det-1" id="desh-default" data-tabs-details="1" style="display: none;">
+								<div class="row _padd20">
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="dashboard-item ">
+											<h3 class="dashboard-item-title">Profile</h3>
+											<ul class="dashboard-item-list">
+												<li>Rita Ora</li>
+												<li>rita@gmail.com</li>
+												<li>02476282</li>
+											</ul>
+										</div>
+									</div>
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="dashboard-item">
+											<h3 class="dashboard-item-title">Address</h3>
+											<ul class="dashboard-item-list">
+												<li>St,California, United States</li>
+												<li>+88 0173-919 0430</li>
+												<li>appifylab@gmail.com</li>
+												<li></li>
+											</ul>
+										</div>
+									</div>
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="dashboard-item">
+											<h3 class="dashboard-item-title">Booked List</h3>
+											<ul class="dashboard-item-list">
+												<li>Relaxed and smiled confidently</li>
+												<li>Elegantly cottage</li>
+												<li>Apartments in San Francisco</li>
+												<li></li>
+											</ul>
+										</div>
+									</div>
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="dashboard-item">
+											<h3 class="dashboard-item-title">Newsletter</h3>
+											<ul class="dashboard-item-list">
+												<li>Subscription</li>
+												<li>+88 0173-919 0430</li>
+												<li>rentify@gmail.com</li>
+												<li></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD DEFAULT END  -->
+							<!-- DESHBOARD USER PROFILE START  -->
+							<div class="dashboard-user tabs-det-1 _padd20" id="desh-user" data-tabs-details="2" style="display: none;">
+								<div class="row">
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="desh-user-info">
+											<div class="desh-user-img">
+												<img src="assets/img/about3.jpg" alt="">
+												<div class="change-btn">
+													<span class="change-img">Change</span>
+													<input type="file" style="display: none">
+												</div>
+											</div>						
+											<form action="#">
+												<label >Name:</label>
+												<input type="text" placeholder="Name" value="Rita Ora">
+												<label >Email:</label>
+												<input type="email" placeholder="Email" value="rita@gmail.com">
+												<label >Password:</label>
+												<input type="password" placeholder="Password" value="74368648">
+												<button class="block-btn2">Save Change</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD USER PROFILE END  -->
+							<!-- DESHBOARD BOOKING START  -->
+							<div class="dashboard-booking tabs-det-1 _padd20" id="desh-booking" data-tabs-details="3" style="display: none;">
+								<div class="row">
+									<!-- ITEM -->
+									<div class="col-md-12">
+										<div class="booked-item">
+											<div class="row no-gutters">
+												<div class="col-md-4">
+													<div class="listing-img">
+														<img src="assets/img/12.jpg" alt="">
+													</div>
+												</div>
+												<div class="col-md-8">
+													<div class="listing-cont _padd20">
+														<h3 class="feature-title listing-title _padd_b5">Relaxed and smiled confidently</h3>
+														<ul class="listing-social desh-booked-cross">
+															<li><i class="fas fa-times"></i></li>
+														</ul>
+														<ul class="feature-list _padd_b5">
+															<li>9 room</li>
+															<li>7 Beds</li>
+															<li>1300 sqft</li>
+															<li>1 Garages</li>
+														</ul>
+														<p class="feature-sub listing-sub  _padd_b5">Adorable ranch in Fenton with 7 bedrooms and 3 bathrooms. Main level includes living room, kitchen and eating area as well as master bedroom and master bath, 2 more bedrooms and full bath. Stainless steel gas range and dishwasher included.</p>
+														<ul class="loc-list _padd_b5">
+															<li><span>location:</span> St,California, United States </li>
+															<li><span>Price:</span> $3719</li>
+														</ul>
+														<button class="block-btn2 _mar_t10">Read More</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD BOOKING END  -->
+							<!-- DESHBOARD WISH START  -->
+							<div class="dashboard-wish tabs-det-1 _padd20" id="desh-wish" data-tabs-details="4" style="display: none;">
+								<div class="all-wish-item">
+									<!-- ITEM -->
+									<div class="wish-item">
+										<div class="wish-img">
+											<img src="assets/img/2.jpg" alt="">
+										</div>
+										<div class="wish-cont">
+											<h3 class="feature-title _padd_b5">Relaxed and smiled confidently</h3>
+											<span class="price _padd_b5">$3,500</span>
+										</div>
+										<span class="wish-cancel"><i class="fas fa-times"></i></span>
+									</div>
+									<!-- ITEM -->
+									<div class="wish-item">
+										<div class="wish-img">
+											<img src="assets/img/3.jpg" alt="">
+										</div>
+										<div class="wish-cont">
+											<h3 class="feature-title _padd_b5">Elegantly cottage</h3>
+											<span class="price _padd_b5">$5,000</span>
+										</div>
+										<span class="wish-cancel"><i class="fas fa-times"></i></span>
+									</div>
+									<!-- ITEM -->
+									<div class="wish-item">
+										<div class="wish-img">
+											<img src="assets/img/8.jpg" alt="">
+										</div>
+										<div class="wish-cont">
+											<h3 class="feature-title _padd_b5">Apartments in San Francisco</h3>
+											<span class="price _padd_b5">$1,200</span>
+										</div>
+										<span class="wish-cancel"><i class="fas fa-times"></i></span>
+									</div>
+									<!-- ITEM -->
+									<div class="wish-item">
+										<div class="wish-img">
+											<img src="assets/img/10.jpg" alt="">
+										</div>
+										<div class="wish-cont">
+											<h3 class="feature-title _padd_b5">Highly decorated building is now available</h3>
+											<span class="price _padd_b5">$4,500</span>
+										</div>
+										<span class="wish-cancel"><i class="fas fa-times"></i></span>
+									</div>
+								</div>
+								<!-- <div class="wish-fefault">
+									<p>You have no wish list yet!</p>
+								</div> -->
+							</div>
+							<!-- DESHBOARD WISH END  -->
+
+							<!-- DESHBOARD REVIEW START  -->
+							<div class="dashboard-review tabs-det-1 _padd20" id="desh-review" data-tabs-details="5" style="display: none;">
+								<div class="row">
+									<!-- ITEM -->
+									<div class="col-md-12 _mar_b30">
+										<div class="row no-gutters">
+											<div class="col-md-4">
+												<div class="listing-img">
+													<img src="assets/img/2.jpg" alt="">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="listing-cont _padd20">
+													<h3 class="feature-title listing-title _padd_b5">Relaxed and smiled confidently</h3>
+													<ul class="listing-social user-review-item">
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+													</ul>
+													<ul class="feature-list _padd_b5">
+														<li>9 room</li>
+														<li>7 Beds</li>
+														<li>1300 sqft</li>
+														<li>1 Garages</li>
+													</ul>
+													<p class="feature-sub listing-sub  _padd_b5">Arnold - Classic open concept ranch. As you pull up the long driveway, you'll appreciate the privacy. The layout is excellent and the rooms are large; Plus, a huge basement for storage and use as an extra entertaining or play area.</p>
+													<ul class="loc-list _padd_b5">
+														<li><span>location:</span> St,California, United States </li>
+														<li><span>Price:</span> $3719</li>
+													</ul>
+													<button class="block-btn2 _mar_t10">Cancel Review</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="row no-gutters">
+											<div class="col-md-4">
+												<div class="listing-img">
+													<img src="assets/img/3.jpg" alt="">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="listing-cont _padd20">
+													<h3 class="feature-title listing-title _padd_b5">Apartments in San Francisco</h3>
+													<ul class="listing-social user-review-item">
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+														<li><i class="fas fa-star"></i></li>
+													</ul>
+													<ul class="feature-list _padd_b5">
+														<li>6 room</li>
+														<li>4 Beds</li>
+														<li>1200 sqft</li>
+														<li>2 Garages</li>
+													</ul>
+													<p class="feature-sub listing-sub  _padd_b5">Available November 23rd, just in time for the holidays! Beautiful ranch in established Ballwin neighborhood on quiet cul-de-sac. Large wooded lot, fenced with over-sized 2 car garage. Finished lower level with full bath, walkout and lots of storage space. Does not include frig or washer/dryer but electric or gas is available for laundry.</p>
+													<ul class="loc-list _padd_b5">
+														<li><span>location:</span> Ballwin, Missouri, United States </li>
+														<li><span>Price:</span> $5000</li>
+													</ul>
+													<button class="block-btn2 _mar_t10">Cancel Review</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD REVIEW END  -->
+							<!-- DESHBOARD SUBSCRIPTION START  -->
+							<div class="dashboard-subs tabs-det-1 _padd20" id="desh-subscription" data-tabs-details="6" style="display: none;">
+								<div class="row">
+									<!-- ITEM -->
+									<div class="col-md-12">
+										<div class="desh-subscription-all-item">
+											<h3 class="dashboard-item-title _mar_b20">All Subscription</h3>
+											<div class="row">
+												<div class="col-md-4">
+													<div class="desh-subscription-item">
+														<h3>Demo</h3>
+														<p>demo@gmail.com</p>
+														<span class="subs-cancel"><i class="fas fa-times"></i></span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="desh-subscription">
+											<form action="#">
+												<label>Subscribe Newsletter</label>
+												<button class="block-btn2">Subscribe Here</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD SUBSCRIPTION END  -->
+							<div class="dashboard-contact tabs-det-1 _padd20" id="desh-contact" data-tabs-details="7" style="display: none;">
+								<div class="row">
+									<!-- ITEM -->
+									<div class="col-md-6">
+										<div class="desh-user-info">
+											<form action="#">
+												<label >Location:</label>
+												<input type="text" placeholder="Location" value="St,California, United States">
+												<label >Phone:</label>
+												<input type="text" placeholder="Phone" value="+1111264447667">
+												<label >Email:</label>
+												<input type="email" placeholder="Email" value="demo@gmail.com">
+												<button class="block-btn2">Save Change</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- DESHBOARD SUBSCRIPTION END  -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- DESHBOARD START -->
+
+		<!-- FOOTER START -->
+		<div class="footer-area">
+			<div class="footer-top _padd_tb20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">ABOUT US</h3>
+								<p class="footer_cont">Rentify is the leading real estate and rental marketplace dedicated to empowering consumers with data, inspiration and knowledge around the place they call home, and connecting them with the best local professionals who can help.</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Short Link</h3>
+								<ul class="footer-menu-list">
+									<li><a href="search.html">Property</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Recent Post</h3>
+								<div class="single-recent-post">
+									<div class="row">
+										<div class="col-lg-3 col-md-4">
+											<div class="recent-post-left">
+												<a href="property_details.html">
+													<img src="assets/img/12.jpg" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-lg-9 col-md-8">
+											<div class="recent-post-right">
+												<h4>The Edison at Union Market</h4>
+												<p>July 13</p>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="single-recent-post">
+									<div class="row">
+										<div class="col-lg-3 col-md-4">
+											<div class="recent-post-left">
+												<a href="property_details.html">
+													<img src="assets/img/17.jpg" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-lg-9 col-md-8">
+											<div class="recent-post-right">
+												<h4>The Verandas at Timberglen</h4>
+												<p>August 25</p>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="footer-col">
+								<h3 class="footer-title">Contact</h3>
+								<ul class="footer-contact">
+									<li><span><i class="fas fa-location-arrow"></i></span>St,California, United States</li>
+									<li><span><i class="fas fa-phone"></i></span>+88 0173-919 0430</li>
+									<li><span><i class="far fa-envelope"></i></span>rentify@gmail.com</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom _padd_tb20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="footer-bottom-cont">
+								<p>copyright &copy; 2019 Design by appifylab</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER END -->
+
+		<script src="assets/js/jquery-1.12.4.min.js" ></script>
+        <script src="assets/js/bootstrap.min.js" ></script>
+        <script src="assets/js/owl.carousel.min.js" ></script>
+        <script src="assets/js/script.js" ></script>
+	</body>
+</html>
